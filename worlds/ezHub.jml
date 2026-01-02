@@ -1,0 +1,24 @@
+<FireBoxRoom>
+  <Assets>
+    <!-- You can define textures, models, sounds, etc. here later -->
+  </Assets>
+
+  <Room
+    use_local_asset="room_plane"
+    pos="0 0 0"
+    fwd="0 0 1"
+    up="0 1 0"
+    skybox="black"
+    col="0.1 0.1 0.1"
+  >
+    <!-- A simple message floating in front of you -->
+    <Text
+      id="welcome_text"
+      pos="0 1.6 -3"
+      col="1 1 1"
+      scale="1 1 1"
+      text="Welcome to ezHub"
+    />
+  </Room>
+</FireBoxRoom>
+
